@@ -1,0 +1,13 @@
+data/raw/
+data/transcribed/
+data/aligned/
+models/*.gguf
+models/*.safetensors
+models/*.bin
+*.pyc
+__pycache__/
+.env
+*.wav
+*.mp3
+*.ogg
+venv/

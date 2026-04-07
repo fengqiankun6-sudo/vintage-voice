@@ -1,0 +1,85 @@
+# VintageVoice — Voice Preset Configurations
+
+transatlantic:
+  description: "Trained mid-Atlantic accent (1920s-1960s)"
+  training_data:
+    - old_time_radio
+    - newsreels
+    - radio_commercials
+  characteristics:
+    - Non-rhotic R (dropping R at end of words)
+    - Clipped T pronunciation
+    - Rounded vowels
+    - Measured, theatrical cadence
+    - Authoritative tone
+  reference_speakers:
+    - "Katharine Hepburn"
+    - "Cary Grant"
+    - "FDR"
+    - "William F. Buckley Jr."
+
+newsreel:
+  description: "Movietone/Pathe newsreel narrator (1930s-1950s)"
+  training_data:
+    - newsreels
+  characteristics:
+    - Rapid-fire delivery
+    - Dramatic emphasis
+    - Rising intonation on key words
+    - Slightly nasal quality (carbon mic artifact)
+    - Staccato phrasing
+
+fireside:
+  description: "FDR Fireside Chat delivery (1933-1944)"
+  training_data:
+    - fdr
+  characteristics:
+    - Intimate, conversational for the era
+    - Slow, deliberate pacing
+    - Patrician New York accent
+    - Reassuring warmth
+    - Strategic pauses
+
+radio_drama:
+  description: "Golden age radio drama performance (1930s-1950s)"
+  training_data:
+    - old_time_radio
+  characteristics:
+    - Theatrical projection
+    - Wide dynamic range
+    - Character voice differentiation
+    - Suspenseful pacing
+    - Dramatic whispers and crescendos
+
+edison:
+  description: "Edison cylinder era voices (1888-1920s)"
+  training_data:
+    - edison
+  characteristics:
+    - Pre-standardized pronunciation
+    - Regional accents before radio homogenized speech
+    - Shouting into horn (pre-electric mic)
+    - Narrow frequency bandwidth
+    - Victorian/Edwardian speech patterns
+
+wartime:
+  description: "WWII broadcast delivery (1939-1945)"
+  training_data:
+    - ww2
+  characteristics:
+    - Urgent gravitas
+    - BBC received pronunciation influence
+    - Static and atmospheric noise resilience
+    - Propaganda cadence
+    - Stiff upper lip composure
+
+announcer:
+  description: "Professional radio announcer (1930s-1960s)"
+  training_data:
+    - radio_commercials
+  characteristics:
+    - Smooth, polished delivery
+    - Product enthusiasm without modern "podcast voice"
+    - Station identification cadence
+    - Sponsor read formality
+    - Sign-off flourishes
