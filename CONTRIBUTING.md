@@ -45,10 +45,10 @@ git clone https://github.com/YOUR_USERNAME/vintage-voice
 cd vintage-voice
 
 # Install dependencies
-npm install  # or cargo build for Rust components
+npm install
 
 # Run tests
-npm test     # or cargo test
+npm test
 
 # Run linter
 npm run lint
@@ -60,9 +60,6 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
 <type>(<scope>): <description>
-
-[optional body]
-[optional footer]
 ```
 
 **Types:**
@@ -72,14 +69,7 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 - `style`: Code style (formatting, no logic change)
 - `refactor`: Code refactoring
 - `test`: Adding or updating tests
-- `chore`: Maintenance tasks (CI, dependencies)
-
-**Examples:**
-```
-feat(audio): add vintage filter effect
-fix(synthesis): correct waveform generation
-docs(readme): add installation guide
-```
+- `chore`: Maintenance tasks
 
 ## Pull Request Process
 
@@ -92,12 +82,12 @@ docs(readme): add installation guide
 
 ## Good First Issues
 
-New to the project? Start with issues labeled [`good first issue`](https://github.com/Scottcjn/vintage-voice/labels/good%20first%20issue).
+New to the project? Start with issues labeled `good first issue`.
 
 ## Getting Help
 
 - **GitHub Issues**: For bugs and feature requests
-- **Discord**: [Join our server](https://discord.gg/)
+- **Discord**: Join our server
 
 ## License
 
